@@ -1,0 +1,168 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    background-image: url(file:///Users/echo/Downloads/wg_piccolo_html_theme/WG%20Piccolo%20Theme/img/page-bg-1.jpg);
+}
+
+
+.text-muted {
+    color: #777
+}
+
+.text-primary {
+    color: #777
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75
+}
+
+p.large {
+    font-size: 14px
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0
+}
+
+a {
+    color: #777;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #000
+}
+
+h1,
+h2,
+h3,
+ {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+section {
+    padding: 100px 0
+}
+
+section h2.section-heading {
+    color: #9B9999;
+    z-index: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 700px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+
+    background-color: #BCBBBB;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    text-transform: none;
+    margin: 0
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0
+}
+
+#portfolio * {
+    z-index: 2
+}
+
+@media (min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px
+    }
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-heart a:visited{
+    color: red;
+}
+
+#limit{
+    width: 262.500px;
+    height: 249.656px;
+}
+
+
+
+
+
+
